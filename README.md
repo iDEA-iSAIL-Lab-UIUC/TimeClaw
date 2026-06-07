@@ -58,8 +58,11 @@ harness on the three benchmarks above.
 conda create -n timeclaw python=3.11
 conda activate timeclaw
 
-pip install -r requirements.txt
+pip install autogluon
+pip install langchain langchain-openai langchain-google-genai
+pip install langchain-mcp-adapters fastmcp
 ```
+
 
 Then copy `.env.example` to `.env` and fill in at least one API key:
 
