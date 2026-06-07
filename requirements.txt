@@ -1,0 +1,20 @@
+# Core agent + MCP
+langchain>=0.3
+langchain-openai>=0.2
+langchain-anthropic>=0.3
+langchain-google-genai>=2.0
+langchain-mcp-adapters>=0.1
+fastmcp>=2.0
+
+# LLM provider SDKs
+openai>=1.50
+
+# Scientific stack
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+statsmodels>=0.14
+
+# Utilities
+python-dotenv>=1.0
+tqdm>=4.66

@@ -1,0 +1,14 @@
+# Normalize line endings: store LF in the repo, check out in the OS-native
+# style. Keeps Windows contributors and CI on Linux from churning diffs.
+* text=auto
+
+# Always LF for scripts so they run on Linux even when checked out on Windows.
+*.sh    text eol=lf
+*.py    text eol=lf
+
+# Treat binary assets as binary (no line-ending munging, no diff noise).
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.pdf   binary
+*.ico   binary
